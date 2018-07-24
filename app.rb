@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    "Team Name: #{params[:name]}"
+    params.to_s
 
   end
 
